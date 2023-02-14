@@ -1,4 +1,4 @@
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyAciY2iYHzPjnNmiwLwhdgnh-GzAaV2w7I",
   authDomain: "kwitter2-0-d6c67.firebaseapp.com",
   databaseURL: "https://kwitter2-0-d6c67-default-rtdb.firebaseio.com",
@@ -9,9 +9,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-   
-   firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
 
 
 

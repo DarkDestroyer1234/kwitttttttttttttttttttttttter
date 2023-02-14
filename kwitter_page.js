@@ -1,16 +1,22 @@
-
-//COLOCA LAS CREDENCIALES DE FIREBASE
 var firebaseConfig = {
-      apiKey: "AIzaSyA_bi3yyEL83nAhZO_hurYV1KG_UkvJpzw",
-      authDomain: "kwitter-ce9ad.firebaseapp.com",
-      databaseURL: "https://kwitter-ce9ad-default-rtdb.firebaseio.com",
-      projectId: "kwitter-ce9ad",
-      storageBucket: "kwitter-ce9ad.appspot.com",
-      messagingSenderId: "519075115449",
-      appId: "1:519075115449:web:59c3840c086c50f9d4c668"
+      apiKey: "AIzaSyAciY2iYHzPjnNmiwLwhdgnh-GzAaV2w7I",
+      authDomain: "kwitter2-0-d6c67.firebaseapp.com",
+      databaseURL: "https://kwitter2-0-d6c67-default-rtdb.firebaseio.com",
+      projectId: "kwitter2-0-d6c67",
+      storageBucket: "kwitter2-0-d6c67.appspot.com",
+      messagingSenderId: "944378142587",
+      appId: "1:944378142587:web:c737c77e332a1a595e27de"
     };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+      
+       
+    
+    
+    
 
-firebase.initializeApp(firebaseConfig);
+
 
 
 user_name = localStorage.getItem("user_name");
